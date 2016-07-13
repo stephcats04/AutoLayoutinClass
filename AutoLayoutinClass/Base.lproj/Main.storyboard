@@ -18,21 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xKT-lc-fsl">
-                                <rect key="frame" x="0.0" y="588" width="600" height="10"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u3Y-13-zxQ">
-                                <rect key="frame" x="0.0" y="67" width="600" height="10"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="10"/>
                                 <color key="backgroundColor" red="0.98823535439999999" green="0.062745101750000004" blue="0.26274511220000002" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xKT-lc-fsl">
+                                <rect key="frame" x="0.0" y="590" width="600" height="10"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="FQw-zh-R6j"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xKT-lc-fsl" firstAttribute="centerY" secondItem="nwn-Vi-Ao2" secondAttribute="centerY" constant="293" id="OpG-VW-Wpv"/>
-                            <constraint firstItem="u3Y-13-zxQ" firstAttribute="centerX" secondItem="xKT-lc-fsl" secondAttribute="centerX" id="SgC-ov-bCe"/>
-                            <constraint firstItem="u3Y-13-zxQ" firstAttribute="top" secondItem="ugs-3T-jbL" secondAttribute="bottom" constant="3" id="lK0-oV-PV0"/>
-                            <constraint firstItem="xKT-lc-fsl" firstAttribute="centerX" secondItem="nwn-Vi-Ao2" secondAttribute="centerX" id="ls1-4A-1Bb"/>
+                            <constraint firstItem="XMY-wU-xfM" firstAttribute="top" secondItem="xKT-lc-fsl" secondAttribute="bottom" id="7rs-ot-MaJ"/>
+                            <constraint firstAttribute="trailing" secondItem="xKT-lc-fsl" secondAttribute="trailing" id="KW8-Sz-uLq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xKT-lc-fsl" secondAttribute="trailing" constant="-20" id="M7g-jL-GGn"/>
+                            <constraint firstItem="XMY-wU-xfM" firstAttribute="top" secondItem="xKT-lc-fsl" secondAttribute="bottom" constant="20" id="S1k-G4-NtC"/>
+                            <constraint firstItem="xKT-lc-fsl" firstAttribute="leading" secondItem="nwn-Vi-Ao2" secondAttribute="leadingMargin" constant="-20" id="SQC-cO-r4F"/>
+                            <constraint firstItem="xKT-lc-fsl" firstAttribute="leading" secondItem="nwn-Vi-Ao2" secondAttribute="leading" id="nR6-Bi-bnW"/>
+                            <constraint firstAttribute="trailing" secondItem="u3Y-13-zxQ" secondAttribute="trailing" id="xfE-KR-vD5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="piL-ay-5zt">
