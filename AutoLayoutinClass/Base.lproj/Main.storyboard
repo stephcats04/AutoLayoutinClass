@@ -38,6 +38,7 @@
                             <constraint firstItem="XMY-wU-xfM" firstAttribute="top" secondItem="xKT-lc-fsl" secondAttribute="bottom" constant="20" id="S1k-G4-NtC"/>
                             <constraint firstItem="xKT-lc-fsl" firstAttribute="leading" secondItem="nwn-Vi-Ao2" secondAttribute="leadingMargin" constant="-20" id="SQC-cO-r4F"/>
                             <constraint firstItem="xKT-lc-fsl" firstAttribute="leading" secondItem="nwn-Vi-Ao2" secondAttribute="leading" id="nR6-Bi-bnW"/>
+                            <constraint firstItem="u3Y-13-zxQ" firstAttribute="top" secondItem="ugs-3T-jbL" secondAttribute="bottom" id="pwR-C8-yNM"/>
                             <constraint firstAttribute="trailing" secondItem="u3Y-13-zxQ" secondAttribute="trailing" id="xfE-KR-vD5"/>
                         </constraints>
                     </view>
